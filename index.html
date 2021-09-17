@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework Webpack</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav">
+        <button class="datecalc-btn">Калькулятор дат</button>
+        <button class="timer-btn">Таймер</button>
+      </nav>
+      <div class="dateCalc">
+        <form id="dateCalc__form">
+          <fieldset class="dateCalc__form">
+            <label>
+              <strong>Первая дата</strong>
+              <input type="date" name="firstDate" />
+            </label>
+            <label>
+              <strong>Вторая дата</strong>
+              <input type="date" name="secondDate" />
+            </label>
+            <button>Рассчитать промежуток</button>
+            <div id="dateCalc__result"></div>
+          </fieldset>
+        </form>
+      </div>
+      <div class="timer">
+        <form id="timer__form" class="visibility">
+          <fieldset class="timer__form">
+            <label>
+              <input type="time" name="time" step="1" />
+            </label>
+            <button id="start">СТАРТ</button>
+            <button id="stop">СТОП</button>
+            <p id="error"></p>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
