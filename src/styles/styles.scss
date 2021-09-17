@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.nav {
+  margin: 15px 0;
+}
+
+.dateCalc {
+  margin: 10px 0;
+
+  &__form {
+    padding: 10px;
+  }
+}
+
+.timer {
+  margin: 10px 0;
+
+  &__form {
+    padding: 10px;
+  }
+}
+
+.visibility {
+  display: none;
+}
